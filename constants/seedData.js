@@ -3,13 +3,13 @@ import { hashPassword } from '../utils/crypto.js';
 export const SEED_GAMES = [];
 
 export const SEED_CATEGORIES = [
-  { id: 'all', name: 'All Games', icon: '🎮', color: '#00ffcc' },
-  { id: 'arcade', name: 'Arcade', icon: '🕹️', color: '#ff0055' },
-  { id: 'action', name: 'Action', icon: '⚔️', color: '#ffaa00' },
-  { id: 'puzzle', name: 'Puzzle', icon: '🧩', color: '#9d00ff' },
-  { id: 'classic', name: 'Classic', icon: '👾', color: '#00e5ff' },
-  { id: 'sports', name: 'Sports', icon: '⚽', color: '#00ff88' },
-  { id: 'cyber', name: 'Cyberpunk', icon: '⚡', color: '#ff00aa' }
+  { id: 'all', name: 'All Games', icon: 'gamepad', color: '#2563eb' },
+  { id: 'arcade', name: 'Arcade', icon: 'arcade', color: '#e11d48' },
+  { id: 'action', name: 'Action', icon: 'action', color: '#d97706' },
+  { id: 'puzzle', name: 'Puzzle', icon: 'puzzle', color: '#7c3aed' },
+  { id: 'classic', name: 'Classic', icon: 'classic', color: '#0284c7' },
+  { id: 'sports', name: 'Sports', icon: 'sports', color: '#059669' },
+  { id: 'cyber', name: 'Cyberpunk', icon: 'cyber', color: '#9333ea' }
 ];
 
 export const SEED_SETTINGS = {
